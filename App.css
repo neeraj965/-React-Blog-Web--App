@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    font-size: 16px;
+}
+
+body{
+background-image: linear-gradient(to right,whitesmoke,lightgray);
+position: relative;
+/* background-attachment: fixed; */
+}
+
+@media screen and (max-width:810px){
+
+    html{
+    font-size: 8px;
+    }
+}
+
+@media screen and (max-width:410px){
+
+    html{
+    font-size: 4px;
+    }
+}

@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+@media screen and (max-width:810px){
+    html{
+        font-size: 8px;
+    }
+}
+.images{
+    /* position:absolute; */
+    height:25rem;
+    width:20%;
+    float:left;
+    border-spacing: 2rem;
+    margin:8rem 2.2rem;
+    box-shadow: 1rem 2rem 1rem gray;
+    border-radius: 2%;
+}
+.welcome{
+    position:absolute;
+  margin-top: 2rem;
+  margin-left: 26rem;
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+
+@media screen and (max-width:410px){
+    html{
+        font-size: 4px;
+    }
+}
+
+.post1{
+    position:absolute;
+    /* margin:35rem -86rem; */
+    margin-top: -46rem;
+    margin-left: -40rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post2{
+    position:absolute;
+    margin-top: -46rem;
+    margin-left: -16rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post3{
+    position:absolute;
+    margin-top: -46rem;
+    margin-left: 6rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post4{
+    position:absolute;
+    margin-top: -46rem;
+    margin-left: 30rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post5{
+    position:absolute;
+    margin-top: -5rem;
+    margin-left: -40rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post6{
+    position:absolute;
+    margin-top: -5rem;
+    margin-left: -17rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post7{
+    position:absolute;
+    margin-top: -5rem;
+    margin-left: 6rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post8{
+    position:absolute;
+    margin-top: -5rem;
+    margin-left: 30rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post9{
+    position:absolute;
+    margin-top:36rem;
+    margin-left: -40rem; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.ten-post{
+    position:absolute;
+    margin-top: 36rem;
+    margin-left: -26rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Social0media! */
+.social{
+    position:absolute;
+    margin-top: -42rem;
+    margin-left: -58rem;
+}
+
+.instagram{
+    position:absolute;
+    margin-top: -42rem;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+    color:black;
+}
+.twitter{
+    position:absolute;
+    margin-top: -42rem;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    color:black;
+}
+.linkedin{
+    position:absolute;
+    margin-top: -42.5rem;
+    margin-left: 25rem;
+    font-size: 2.4rem;
+    color:black;
+}
+
+
+
+
+
+
+
+
+

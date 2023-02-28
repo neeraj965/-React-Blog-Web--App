@@ -1,0 +1,22 @@
+import './Post.css'
+
+export default function Post(){
+
+    return(
+        <div>
+
+        <div className='post'>
+        Post <span style={{color:'blue'}}>Details</span>
+        </div>
+
+        <div className='post-1'></div>
+        <img src="https://freesvg.org/storage/img/thumb/blogging-girl.png" alt="" style={{position:'absolute',marginLeft:'10rem',marginTop:'-30rem',height:'23rem'}} />
+
+        <div className='post-2'></div>
+        <span className='detail-heading'>Here is the dummy Blog post 
+       <span style={{color:'blue',fontSize:'2.5rem'}}>Details...👇</span></span>
+
+       <span className='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae officia placeat vero doloremque cum aspernatur quo unde esse, id deserunt provident ut, <br/>natus cumque inventore sed voluptas debitis exercitationem, obcaecati dolorum. Dolor ipsam, veniam odit minus voluptas distinctio earum nam porro impedit voluptatem cumque. Eos error quod sunt quae! Expedita minus ex aspernatur, voluptates totam consequatur repellendus dicta ea accusamus veritatis a nesciunt esse quos <br/>eligendi magnam pariatur unde labore distinctio? Molestiae odit, dolores dolore fugiat quod ea fugit labore laborum, consectetur, nulla repudiandae? Est praesentium blanditiis ab id reiciendis? Consectetur, est neque! Minima nostrum, iste architecto provident debitis in quidem aspernatur veritatis itaque a doloribus velit nulla vitae,<br/> ratione dolore neque sapiente mollitia quae, repellat odio! Odio minima eum voluptatum, recusandae repellendus nemo ea ipsam consequatur quisquam aut voluptates eveniet ex pariatur, possimus distinctio veniam est dolorem earum. Perspiciatis eos, <br/>odit doloribus magni nisi minima asperiores quos natus atque. Porro eaque quos necessitatibus accusamus at accusantium. Fugit eveniet praesentium accusantium aperiam ipsam sapiente tenetur porro debitis vero officiis ad pariatur, repellendus eaque earum nisi laudantium impedit! Iure deserunt asperiores, perspiciatis<br/> reprehenderit veritatis maiores! Qui laboriosam non eius assumenda quibusdam sit, deleniti eveniet. Voluptatem illo placeat architecto perspiciatis. Impedit animi eveniet dolorem unde quo! Ipsa unde dolorum temporibus? Vel, dolore nam tempora iste ut corrupti <br/>repudiandae quos deleniti vitae, aspernatur adipisci dolorem? Odit culpa veniam delectus laudantium dicta eligendi sequi maxime at recusandae! Assumenda cupiditate aperiam neque eum recusandae illum, expedita illo nemo autem deleniti <br/>id a fugiat repellendus est mollitia consequatur iste consequuntur! Eveniet minima dignissimos, architecto voluptatum quasi adipisci aut fuga at veniam ea minus assumenda omnis excepturi molestias sint odit perspiciatis quidem debitis optio corrupti explicabo, expedita, deleniti vitae. Temporibus facere ipsa soluta perferendis, reprehenderit a mollitia quos vitae, debitis laboriosam consequuntur maiores eius similique quibusdam dolorem. Eos eveniet, quidem, qui reiciendis accusantium expedita <br/>mollitia aperiam nihil officia nesciunt inventore excepturi maxime at labore corporis unde provident quasi et dolorum odit voluptate ducimus. Minus dolorem aspernatur officia enim beatae debitis dolorum iste ab nesciunt molestias dolore rem error quo autem, recusandae magni architecto eum dolor quasi, consectetur est reiciendis facilis? Totam vitae atque odio voluptatibus nostrum necessitatibus, illum voluptates, cumque numquam accusamus dolores vel quos ipsam. Aut cum nisi doloribus excepturi eaque placeat, dolorem nulla laboriosam <br/>rem et quaerat beatae similique nihil exercitationem dolore fuga deleniti recusandae ipsum veritatis quasi tenetur. Architecto asperiores consectetur ipsa dolore aperiam fugiat cumque fugit neque dolorem optio! Consequatur minima quis accusantium officia? Nam, reprehenderit numquam? Eos hic animi repellendus soluta voluptatem dolore iste, officiis minus deleniti dolor laborum aspernatur accusamus modi? Saepe iusto impedit, repudiandae itaque accusamus tenetur laudantium tempore quidem expedita commodi error ex provident similique perspiciatis <br/>assumenda nostrum porro libero reiciendis earum ut quas labore. Nesciunt eius cum temporibus eos odio animi ducimus laborum minima soluta, officiis placeat minus consectetur ea nobis voluptate rerum deleniti eaque amet vero? Ipsam architecto, ad error reiciendis laborum quo dolorum quaerat pariatur iste nisi,<br/> et voluptates. Quisquam ullam tempora sit. Itaque, delectus consectetur.</span>
+        </div>
+    )
+}

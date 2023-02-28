@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    font-size: 16px;
+}
+.about-upper{
+    height:15rem;
+    background-color: gray;
+    opacity:0.3;
+}
+.about-down{
+    height:25rem;
+    background-color:gray;
+}
+.about{
+    font-size: 5rem;
+    position:absolute;
+    margin:-37rem 40rem;
+    opacity:0.8;
+    font-weight: 600;
+}
+.about-me{
+    font-size: 2rem;
+    position:absolute;
+    margin:-31rem 42rem;
+    opacity:0.8;
+    font-style: italic;
+}
+.about-text{
+    font-size: 1.3rem;
+    position:absolute;
+    margin:-15rem 4rem;
+    color:lightgray;
+}
+.visit{
+    font-size: 1.8rem;
+    position:absolute;
+    margin:-19rem 4rem;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+
+
+@media screen and (max-width:810px){
+    html{
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:410px){
+    html{
+        font-size: 4px;
+    }
+}

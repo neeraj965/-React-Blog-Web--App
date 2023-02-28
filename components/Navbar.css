@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+nav {
+  background-color: white;
+  overflow-x: hidden;
+  height: 5rem;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  float: right;
+  margin: 2rem 5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  /* font-weight: 600; */
+  transition: transform all;
+}
+
+a:hover {
+  color: black;
+  transform: scale(1.1);
+
+  opacity: 0.4;
+}
+
+.sign-in {
+  text-align: center;
+  font-size: 1rem;
+  position: absolute;
+  height: 2rem;
+  width: 6rem;
+  cursor: pointer;
+  /* background-color: yellow; */
+  margin: -2.4rem 4rem;
+  border: 1px solid blue;
+  /* border-radius: 0%; */
+}
+.sign-in:hover {
+  border: 1px solid green;
+  /* border-radius: 10%; */
+  /* background-color: lightgray; */
+}
+
+@media screen and (max-width: 810px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 410px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+
+
+/* Login-page! */
+.login{
+  position:absolute;
+  height:3rem;
+  width:20rem;
+  background-color:whitesmoke;
+  margin-top: 5rem;
+  margin-left:6rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.login-logo{
+  position:absolute;
+  margin-top: -24rem;
+  margin-left: -14rem;
+  font-size: 2rem;
+  font-weight: 600;
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+
+
+
+/* Register-button! */
+.register-button{
+  position:absolute;
+  margin-top: 17rem;
+  margin-left: 13rem;
+  /* color:green; */
+  /* background-color:green; */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Or! */
+
+.or{
+  position:absolute;
+  height:0.1rem;
+  /* width:'5rem'; */
+margin-top:13rem ;
+background-color: black;
+text-align: center;
+
+}
+
+
+
+/* Register-form! */
+.register-form{
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:whitesmoke;
+  height:70vh;font-size: 1rem;
+  font-weight: 500;
+  opacity:0.7;
+  width:25rem;
+  margin-left: 10rem;
+  margin-top: 7rem;
+
+}
+
+.register-logo{
+  position:absolute;
+  margin-top: -24rem;
+  margin-left: -14rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

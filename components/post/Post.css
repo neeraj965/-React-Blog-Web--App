@@ -1,0 +1,53 @@
+*{
+    margin:0;
+padding:0;
+
+}
+html{
+
+    font-size:16px;
+}
+.post{
+font-size: 3rem;
+font-weight: 600;
+margin-left:40rem;
+margin-Top:2rem;
+}
+.post-1{
+    height:30rem;
+    background-color: whitesmoke;
+}
+
+.detail-heading{
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: -55rem;
+    margin-left: 50rem;
+    font-weight: 600;
+    font-style: oblique;
+    /* text-decoration: underline; */
+}
+.post-2{
+    height:50rem;
+    background-color: gray;
+    opacity:0.7;
+}
+
+@media screen and (max-width:810px){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:410px){
+    html{
+        font-size: 4px;
+    }
+}
+
+.lorem{
+    font-size: 1.2rem;
+    font-weight: 600;
+    position:absolute;
+    margin-top: -45rem;
+}
